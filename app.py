@@ -8,6 +8,9 @@ import time
 from io import BytesIO
 import locale
 
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=80)  # Para GitHub Pages
+
 app = Flask(__name__)
 
 # Configuración regional para el manejo de números (opcional)
